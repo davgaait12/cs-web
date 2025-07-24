@@ -1,7 +1,12 @@
 import React from "react";
+import AboutusHomaPage from "../components/aboutus/AboutusHomaPage";
 
 const page = () => {
-  return <div>page</div>;
+  return (
+    <div>
+      <AboutusHomaPage />
+    </div>
+  );
 };
 
 export default page;
